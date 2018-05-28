@@ -1,5 +1,5 @@
 {
-  "name": "react-training",
+  "name": "minimal-semantic-react-storybook",
   "version": "1.0.0",
   "main": "src/index.jsx",
   "author": "Jonathan H (jhadida.pub@gmail.com)",
@@ -7,8 +7,8 @@
   "scripts": {
     "serve": "webpack-dev-server --mode development",
     "build": "webpack --mode development",
-    "story-serve": "start-storybook -p 9001 -c .storybook",
-    "story-build": "build-storybook -c .storybook -o storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "export-storybook": "build-storybook -c .storybook -o storybook"
   },
   "dependencies": {
     "jquery": "^3.3.1",
