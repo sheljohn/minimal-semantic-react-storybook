@@ -1,8 +1,6 @@
 # SemanticUI-React + Webpack
 
-This repository contains the bare minimum to get you going with [SemanticUI-React](https://react.semantic-ui.com) and [Webpack](https://webpack.js.org/).
-
-Specifically, this config declares the usual "big libraries" (jQuery, Lodash, React and SemanticUI) as [`externals`](https://webpack.js.org/configuration/externals/), which helps reduce significantly the final size of your bundle. Instead of being bundled together with your own code, these libraries are loaded as `<script>` tags in the header of the main HTML file (typically from a CDN).
+This repository contains the bare minimum to get you going with [SemanticUI-React](https://react.semantic-ui.com), [Webpack](https://webpack.js.org/), and [Storybook/react](https://storybook.js.org/basics/guide-react/). It builds upon another [minimal repository](https://github.com/sheljohn/minimal-semantic-react) without Storybook.
 
 To run this example, simply type in a terminal:
 ```
